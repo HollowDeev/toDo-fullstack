@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    background-color: #0099FF;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.add-form {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #c9c9c9;
+    border-radius:5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+button[type='submit']{
+    background-color: #0099FF;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: cell;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 10px 15px;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+}
+
+td {
+    color: #333;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #ebf2f5;
+}
+
+select{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #ebebeb;
+}
+
+select:hover{
+    background-color: #ddd;
+}
+
+.btn-action {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-action:nth-child(1){
+    background-color: orange;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.btn-action:nth-child(2){
+    background-color: rgba(237, 42, 42, 0.9)
+}
+
+.btn-action:hover {
+    box-shadow: -5px 0px 0px #ddd;
+    transition: all .2s ease;
+}
